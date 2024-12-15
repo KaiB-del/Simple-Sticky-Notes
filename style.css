@@ -103,7 +103,8 @@ li span {
     font-size: 12px;
     flex-grow: 1;
     word-wrap: break-word;
-    overflow-y: scroll;
+    overflow-y: auto;
+    max-width: 200px;
 }
 
 #editBtn,
